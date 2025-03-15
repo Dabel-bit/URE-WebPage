@@ -1,0 +1,83 @@
+.general-container{
+    background: linear-gradient(135deg, #fff7db 10%, #ddc5e4 50%,rgba(255,255,255,0) 100%); 
+    padding: 90px 90px 90px 90px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* En dispositivos móviles, el logo irá arriba */
+@media (max-width: 600px) {
+    .general-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.img-container {
+    width: 70%;
+    max-width: 300px;
+    padding: 50px;
+    align-content: center;
+}
+
+.text-container {
+    font-size: 20px; /* Tamaño base */
+}
+
+/* Dispositivos pequeños */
+@media (max-width: 600px) {
+    .text-container {
+        font-size: 14px;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+    .text-container {
+        font-size: 22px;
+    }
+}
+
+.contender{
+    width: 66.6%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-left: 10%;
+
+}
+
+.btn{
+    background-color: #41b79f;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    border-radius: 9px;
+    text-decoration:none;
+}
+
+.btn-us{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.logo1 {
+    max-width: 10%;
+    height: auto;
+    object-fit: contain;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+.contender h2{
+    text-align: center;
+}
+
+.base {
+    padding: 50px;
+}

@@ -1,0 +1,37 @@
+@font-face{
+  font-family: 'Open Sauce';
+  src: url(./Fuentes/OpenSauceSans-Regular.ttf);
+
+  font-family: 'Agrandir Narrow';
+  src: url(./Fuentes/agrandir-narrow.otf);
+
+  font-family: 'Nourd';
+  src: url(./Fuentes/nourd_regular.ttf);
+
+  font-weight: bold;
+  font-style: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nourd';
+}
+
+html,
+body {
+  font-size: 24px;
+  line-height: 54px;
+  background-color: #fff7db;
+  
+}
+
+.General {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 200px;
+}

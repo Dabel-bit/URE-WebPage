@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'Open Sauce';
+    src: url(../Fuentes/OpenSauceSans-Regular.ttf);
+
+    font-family: 'Agrandir Narrow';
+    src: url(../Fuentes/agrandir-narrow.otf);
+
+    font-family: 'Nourd';
+    src: url(../Fuentes/nourd_regular.ttf);
+
+    font-weight: bold;
+    font-style: bold;
+}
+
+.footer{
+    background: linear-gradient(135deg, #fff7db -3%, #41b79f 70%,rgba(255,255,255,0) 100%); 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+.first-container{
+    display: flex;
+    justify-content: space-around; /* Distribuye los botones horizontalmente */
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 5px 0;
+}
+
+.text-container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    justify-content: center;
+}
+
+.data{
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(14px, 2vw, 20px);
+  }
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: "Nourd";
+    font-size: 16px;
+}
+
+.instagram-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .instagram-icon {
+    font-size: 2rem;  /* Ajusta el tamaño del ícono según tus necesidades */
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    transition: transform 0.2s; /* Efecto al pasar el ratón */
+    color: black;
+    text-decoration: none;
+  }
+  
+  .instagram-icon:hover {
+    transform: scale(1.2); /* Efecto de aumento al pasar el ratón */
+  }
+  
+  @media (max-width: 600px) {
+    .instagram-icon {
+      font-size: 1.5rem; /* Reducir el tamaño del ícono en pantallas pequeñas */
+    }
+  }
+
+  a {
+    color: black;
+  }
