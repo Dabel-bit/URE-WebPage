@@ -6,11 +6,11 @@ import '../Styles/Home.css'
 
 export const Home = () => {
 
-    const [size, setSize] = useState("35vw");
+    const [size, setSize] = useState("20vw");
 
     useEffect(() => {
         const handleResize = () => {
-            setSize(window.innerWidth < 1000 ? "30vw" : "30vw");
+            setSize(window.innerWidth < 768 ? "40vw" : "20vw");
         };
 
         window.addEventListener("resize", handleResize);
@@ -19,21 +19,22 @@ export const Home = () => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    const maxSize = Math.min(parseInt(size), 15);
+    //const maxSize = Math.min(parseInt(size), 15);
 
     return (
         <>
         <div>
+            <div className="base-1"></div>
             <div className="general-container">
                 <div className='img-container'>
-                    <img src={ logo1 } style={{ maxWidth: `${maxSize}vw`, height: "auto" }} />
+                    <img src={ logo1 } style={{ maxWidth: size, height: "auto" }} />
                 </div>
                 <div className="text-container">
                     <div className="contender">
                         <div>
                             <div>
-                                <h2>Centro psciologico</h2>
-                                <h2><b>Un rincon del encuentro</b></h2>
+                                <h2>Centro Psicologico</h2>
+                                <h2><b>Un Rincon Del Encuentro</b></h2>
                             </div>
                         <br />
                         <div>
@@ -53,14 +54,14 @@ export const Home = () => {
                             </h3>
                             <div className='btn-us'>
                                 <a className='btn'>
-                                <Link to="/equipo" className='btn'>Conoce a nuestras psicólogas</Link>
+                                <Link to="/equipo" className='btn'>Conoce a nuestro equipo</Link>
                                 </a>
                             </div>
                         </div>  
                     </div>
                 </div>
             </div>
-            <div className="base"></div>
+            <div className="base-2"></div>
         </div>
         </>
     )

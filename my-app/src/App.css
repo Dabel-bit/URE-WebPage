@@ -20,9 +20,12 @@
 
 html,
 body {
+  height: 100%;
   font-size: 24px;
   line-height: 54px;
   background-color: #fff7db;
+  display: flex;
+  flex-direction: column;
   
 }
 
@@ -34,4 +37,9 @@ body {
   justify-content: center;
   text-align: center;
   margin-bottom: 200px;
+}
+
+/* Cuerpo principal de la página */
+.main-content {
+  flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
 }

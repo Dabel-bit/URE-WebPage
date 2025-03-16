@@ -7,26 +7,12 @@ export const Footer = () => {
   return (
     <>
       <div className='footer'>
-        <div className="first-container">
-          <div className="text-container">
-            <p className='instagram-link'>
-            </p>
+
             <p>
-              <a href="https://www.instagram.com/unrincondelencuentro/" color="black">
-                  @unrincondelencuentro 
-              </a>
-            </p>                    
-            <p>
-                        +569 9999 9999 
+							&copy; { getCurrentYear() } Un Rincón del Encuentro. Todos los derechos reservados.
+						
+						
             </p>
-            <p>
-                        Un Rincón del Encuentro&#174; 
-            </p>
-            <p>
-                        { getCurrentYear() }
-            </p>
-          </div>
-        </div>
       </div>
     </>
   );
