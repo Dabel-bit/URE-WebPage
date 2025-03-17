@@ -34,7 +34,7 @@ export const Home = () => {
                         <div>
                             <div>
                                 <h2>Centro Psicologico</h2>
-                                <h2><b>Un Rincon Del Encuentro</b></h2>
+                                <h2><b>Un Rincón Del Encuentro</b></h2>
                             </div>
                         <br />
                         <div>
