@@ -20,12 +20,12 @@ export const Contacto = () => {
   return (
     <div>
       <div className="base-1"></div>
-      <div className='generalcontact-container'>
+      <div className='general-container'>
         <div className='img-container'>
           <img src={ logo1 } style={{ maxWidth: size, height: "auto" }} />
         </div>
-        <div className='textcontact-container'>
-          <div className='textcontender'>
+        <div className='text-container'>
+          <div className='contender'>
                 <div>
                     <h2 style={{ display: 'inline-block', marginRight: '70px' }}>Contacto</h2>            
                     </div>

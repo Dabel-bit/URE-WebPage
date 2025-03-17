@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-import { MAPS_API_KEY } from './Secrets/MapsApi'
+import { GoogleMap, Marker } from '@react-google-maps/api';
 
 export const MapComponent = () => {
   // Aquí es donde defines las coordenadas de la ubicación
@@ -20,14 +19,12 @@ export const MapComponent = () => {
   };
 
   return (
-    <LoadScript googleMapsApiKey={ MAPS_API_KEY }>
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
         zoom={12}
       >
-        <Marker position={center} />
+        <Marker position={location} />
       </GoogleMap>
-    </LoadScript>
   );
 };

@@ -1,4 +1,4 @@
-.generalcontact-container{
+.general-container{
     background: linear-gradient(135deg, #fff7db 10%, #ddc5e4 50%,rgba(255,255,255,0) 100%); 
     padding: 90px 90px 90px 90px;
     display: flex;
@@ -63,8 +63,8 @@
     margin-top: 20px;
 }
 
-.textcontender h2{
-    text-align: left;
+.contender h2{
+    text-align: center;
 }
 
 .base-2 {
@@ -77,7 +77,7 @@
 
 h2 {
     font-size: clamp(20px, 2.5vw, 32px); /* Mínimo 20px, ajusta con el ancho de la pantalla, máx 32px */
-    line-height: 55px;
+    line-height: 45px;
 }
 
 h3 {
