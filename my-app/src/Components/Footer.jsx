@@ -9,9 +9,7 @@ export const Footer = () => {
       <div className='footer'>
 
             <p>
-							&copy; { getCurrentYear() } Un Rincón del Encuentro. Todos los derechos reservados.
-						
-						
+							&copy; { getCurrentYear() } Un Rincón del Encuentro&reg;
             </p>
       </div>
     </>

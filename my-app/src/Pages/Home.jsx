@@ -53,9 +53,9 @@ export const Home = () => {
                             y promover el bienestar integral de la salud mental.
                             </h3>
                             <div className='btn-us'>
-                                <a className='btn'>
+                                
                                 <Link to="/equipo" className='btn'>Conoce a nuestro equipo</Link>
-                                </a>
+                                
                             </div>
                         </div>  
                     </div>

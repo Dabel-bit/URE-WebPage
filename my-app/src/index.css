@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  flex: 1; /* Hace que el contenido principal crezca y empuje el footer hacia abajo */
+}
