@@ -1,12 +1,9 @@
 import { MapComponent } from "../Components/MapComponent";
-import { LoadScriptNext } from '@react-google-maps/api';
-import { MAPS_API_KEY } from '../Components/Secrets/MapsApi';
 import '../Styles/Ubicacion.css'
 
 export const Ubicacion = () => {
     return (
         <>
-          <LoadScriptNext googleMapsApiKey={MAPS_API_KEY}>
             <div>
               <div className="base-1"></div>
               <div className='generalmap-container'>
@@ -31,7 +28,6 @@ export const Ubicacion = () => {
                     </div>
                   </div>
                 </div>
-          </LoadScriptNext>
         </>
     )
   };
