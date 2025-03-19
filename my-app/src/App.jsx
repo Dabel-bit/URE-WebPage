@@ -12,7 +12,7 @@ import './App.css'
 export const App = () => {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/URE-WebPage">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
