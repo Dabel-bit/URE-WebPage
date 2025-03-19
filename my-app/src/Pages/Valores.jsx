@@ -26,12 +26,14 @@ export const Valores = () => {
         <div className='text-container'>
           <div className='contender'>
             <div>
-              <h2 style={{ display: 'inline-block', marginRight: '70px' }}>Valores:</h2>            </div>
+              <h2>Valores:</h2>            </div>
               <div>
-                <ul style={{ whiteSpace: 'nowrap' }}>
+                <ul>
                   <li style={{ display: 'inline-block', marginRight: '20px' }}><strong>Fonasa:</strong> $25.000 por sesión.</li>
                   <br />
                   <li style={{ display: 'inline-block', marginRight: '20px' }}><strong>Isapre o Particular:</strong> $35.000 por sesión.</li>
+                  <br />
+                  <li style={{ display: 'inline-block', marginRight: '20px' }}><strong>Diferencial:</strong> $20.000 a $22.000 por sesión.</li>
                 </ul>
               </div>
             </div>
