@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     width: 70%;
-    max-width: 300px;
-    padding: 100px;
+    max-width: 250px;
+    padding: 50px;
     align-content: center;
 }
 
@@ -26,14 +26,20 @@
 
 .text-container {
     width: 50%;
-    font-size: 20px;
+    font-size: clamp(16px, 2vw, 20px); /* Ajuste dinámico */
     text-align: justify;
 }
 
 /* Pantallas grandes */
 @media (min-width: 1200px) {
     .text-container {
-        font-size: 22px;
+        font-size: 16px;
+        width: 90%; /* Asegura que el texto no quede muy ancho */
+        text-align: center; /* Centrar en móviles */
+    }
+    .img-container {
+        padding: 20px; /* Reduce padding en móviles */
+        max-width: 60vw; /* Se adapta mejor a móviles */
     }
 }
 /*

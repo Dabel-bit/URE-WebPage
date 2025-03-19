@@ -27,11 +27,11 @@ export const Contacto = () => {
         <div className='text-container'>
           <div className='contender'>
                 <div>
-                    <h2 style={{ display: 'inline-block', marginRight: '70px' }}>Contacto</h2>            
+                    <h2>Contacto</h2>            
                     </div>
                 <div>
                 <div>
-                <ul style={{ whiteSpace: 'nowrap' }}>
+                <ul>
                   <li>
                     <strong>Correo: </strong> 
                     <a
