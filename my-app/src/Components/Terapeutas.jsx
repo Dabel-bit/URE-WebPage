@@ -7,6 +7,7 @@ import sofi from '../Images/sofi.jpeg'
 import vale from '../Images/vale.jpg'
 import yvo from '../Images/Yvo.jpg'
 import valeg from '../Images/valeg.jpeg'
+import geo from '../Images/geo.jpg'
 
 export const terapeutas = [
     {
@@ -60,9 +61,9 @@ export const terapeutas = [
         "descripcion": `Psicóloga clínica de la Universidad Alberto Hurtado. Diplomada en Psicología del Trauma y Clínica de bordes y abordaje institucional.\n Trabajo con personas desde los 13 años de edad. Abordaje con orientación psicoanalítica.\n Trabajo clínico en temáticas relacionadas al Trauma, Trastornos de personalidad y del ánimo.`
     },
     {
-        "imagen": javi,
-        "nombre": "Paquita la del Barrio",
+        "imagen": geo,
+        "nombre": "Geovanna Colima Azúa",
         "cargo": "Psicóloga",
-        "descripcion": `Lorem ipsum`
+        "descripcion": `Psicóloga, Bachiller en Ciencias Sociales y Diploma de honores en género. Experiencia en el trabajo clínico de forma particular y con fundaciones, moderación de grupos comunitarios y gestión de proyectos.\n Actualmente se desempeña como psicóloga clínica en el centro "Un Rincón del Encuentro". Se especializa en el trabajo con personas adultas y adolescentes desde un enfoque afirmativo de género y neuroafirmativo.`
     },
 ];
