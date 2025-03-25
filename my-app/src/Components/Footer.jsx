@@ -1,7 +1,7 @@
 //import { FaInstagram } from 'react-icons/fa';
 import '../Styles/Footer.css'
 
-let getCurrentYear = () => new Date().getFullYear();
+//let getCurrentYear = () => new Date().getFullYear();
 
 export const Footer = () => {
   return (
@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className='footer'>
 
             <p>
-							&copy; { getCurrentYear() } Un Rincón del Encuentro&reg;
+							&copy; 2025 Un Rincón del Encuentro&reg;
             </p>
       </div>
     </>
