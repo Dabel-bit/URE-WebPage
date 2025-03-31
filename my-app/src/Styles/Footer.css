@@ -1,19 +1,33 @@
-@font-face{
-    font-family: 'Open Sauce';
-    src: url(../Fuentes/OpenSauceSans-Regular.ttf);
+@font-face {
+  font-family: 'Nourd';
+  src: url(./Fuentes/nourd_regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-    font-family: 'Agrandir Narrow';
-    src: url(../Fuentes/agrandir-narrow.otf);
+@font-face {
+  font-family: 'Livvic';
+  src: url(./Fuentes/Livvic-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-    font-family: 'Nourd';
-    src: url(../Fuentes/nourd_regular.ttf);
+@font-face {
+  font-family: 'Open Sauce';
+  src: url(./Fuentes/OpenSauceSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-    font-weight: bold;
-    font-style: bold;
+@font-face {
+  font-family: 'Agrandir Narrow';
+  src: url(./Fuentes/agrandir-narrow.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .footer{
-    background: linear-gradient(135deg, #fff7db -3%, #41b79f 70%,rgba(255,255,255,0) 100%); 
+    background: linear-gradient(135deg, #fff7db 0%, #41b79f 70%,rgba(255,255,255,0) 100%); 
     position: relative;
     bottom: 0;
     left: 0;
