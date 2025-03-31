@@ -33,13 +33,13 @@ export const Formulario = () => {
                     <div className="contender">
                         <div>
                             <div>
-                                <h2>¡Bienvenidx!</h2>
+                                <h2>¡BIENVENIDX!</h2>
                             </div>
                         <br />
                         <div>
 
                         </div>
-                            <h3>
+                            <h3 className="h3-formulario">
                                 Un Rincón del Encuentro está compuesto por psicólogas que 
                                 buscan entregar un espacio psicoterapéutico seguro para 
                                 las personas, desde un enfoque afirmativo y de género. 

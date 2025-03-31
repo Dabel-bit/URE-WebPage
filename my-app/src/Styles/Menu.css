@@ -62,6 +62,7 @@
         width: 100%;
         max-width: 250px; /* Para evitar que se estiren demasiado */
         height: 50px; /* Asegura que todos los botones tengan la misma altura */
+        font-weight: bold;
     }
   }
   
@@ -77,10 +78,11 @@
   transition: all 0.3s linear;
   border-radius: 0.25rem;
   justify-content: center;
-  color: #d3e6e2;
+  color: #ffffff;
   text-decoration: none;
   display: block;
   width: 100%;
+  font-weight: bold;
 }
 
 .menu-toggle {
@@ -88,7 +90,7 @@
     font-size: 24px;
     background-color: #41b79f;
     border: none;
-    color: #ddc5e4;
+    color: #ffffff;
     cursor: pointer;
     width: 100%;
     z-index: 100;

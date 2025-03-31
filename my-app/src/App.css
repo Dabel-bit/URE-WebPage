@@ -1,3 +1,32 @@
+@font-face {
+  font-family: 'Nourd';
+  src: url(./Fuentes/nourd_regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Livvic';
+  src: url(./Fuentes/Livvic-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sauce';
+  src: url(./Fuentes/OpenSauceSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agrandir Narrow';
+  src: url(./Fuentes/agrandir-narrow.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
 @font-face{
   font-family: 'Open Sauce';
   src: url(./Fuentes/OpenSauceSans-Regular.ttf);
@@ -11,6 +40,7 @@
   font-weight: bold;
   font-style: bold;
 }
+  */
 
 * {
   margin: 0;

@@ -78,14 +78,49 @@
 h2 {
     font-size: clamp(20px, 2.5vw, 32px); /* Mínimo 20px, ajusta con el ancho de la pantalla, máx 32px */
     line-height: 45px;
+    font-family: 'Nourd', sans-serif;
+    font-weight: bold;
 }
 
 h3 {
     font-size: clamp(16px, 2vw, 24px); /* Mínimo 16px, ajusta con el ancho, máx 24px */
+    font-weight: bold;
+    font-family: 'Nourd';
+}
+
+h4 {
+    font-size: clamp(16px, 2vw, 24px); /* Mínimo 16px, ajusta con el ancho, máx 24px */
+    font-weight: lighter;
+    font-family: 'Livvic', sans-serif;
 }
 
 .btn {
     font-size: clamp(14px, 1.8vw, 20px);
+}
+
+.tarjetas-valores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.tarjeta-valores {
+    background: #fff7db;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    line-height: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    flex-grow: 1;
+    font-family: 'Livvic', sans-serif;
+}
+
+.tarjeta-valores:hover {
+    transform: translateY(-5px);
 }
 
 /* En dispositivos móviles, el logo irá arriba */
@@ -103,5 +138,10 @@ h3 {
     }
     .text-container {
         width: 100%;
+    }
+    .tarjetas-valores-container {
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
     }
 }

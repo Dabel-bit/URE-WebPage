@@ -18,7 +18,7 @@ export const Equipo = () => {
 
   return (
       <div className="equipo-container">
-        <h2>Nuestro Equipo</h2>
+        <h2>NUESTRO EQUIPO</h2>
         <div className="tarjetas-container">
             {terapeutas.map((terapeuta, index) => (
                 <div key={index} className="tarjeta">

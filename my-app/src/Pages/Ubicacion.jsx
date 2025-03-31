@@ -9,8 +9,8 @@ export const Ubicacion = () => {
               <div className='generalmap-container'>
                 <div className='textmap-container'>
                   <div className='mapcontender'>
-                  <h2>Ubicación</h2>
-                  <h3>Luis Thayer Ojeda 073, Providencia. RM.
+                  <h2>UBICACIÓN</h2>
+                  <h3 className="h3-ubicacion">Luis Thayer Ojeda 073, Providencia. RM.
                     <br/>
                   </h3>
                   <p>

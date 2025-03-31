@@ -36,6 +36,12 @@
         font-size: 22px;
     }
 }
+
+.h3-formulario {
+    font-size: clamp(16px, 2vw, 24px); /* Mínimo 16px, ajusta con el ancho, máx 24px */
+    font-family: 'Livvic', sans-serif;
+    font-weight: lighter;
+}
 /*
 .contender{
     width: 66.6%;

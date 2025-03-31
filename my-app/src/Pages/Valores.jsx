@@ -26,20 +26,26 @@ export const Valores = () => {
         <div className='text-container'>
           <div className='contender'>
             <div>
-              <h2>Valores:</h2>            </div>
-              <div>
-                <ul>
-                  <li style={{ display: 'inline-block', marginRight: '20px' }}><strong>Fonasa:</strong> $25.000 por sesión.</li>
-                  <br />
-                  <li style={{ display: 'inline-block', marginRight: '20px' }}><strong>Isapre o Particular:</strong> $35.000 por sesión.</li>
-                  <br />
-                  <li style={{ display: 'inline-block', marginRight: '20px' }}><strong>Diferencial:</strong> $20.000 a $22.000 por sesión.</li>
-                </ul>
+              <h2>VALORES</h2>
+            </div>
+            <div className="tarjetas-valores-container">
+              <div className='tarjeta-valores'>     
+                <h3>FONASA</h3>
+                <h4>$25.000 por sesión.</h4>     
+              </div>
+              <div className='tarjeta-valores'>   
+                <h3>ISAPRE O PARTICULAR</h3>  
+                <h4>$35.000 por sesión.</h4>   
+              </div>
+              <div className='tarjeta-valores'>
+                <h3>DIFERENCIAL</h3>    
+                <h4>$20.000 o $22.000 por sesión.</h4>    
+              </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="bajo"></div>
+      <div id="bajo"></div>
     </div>
   );
 }

@@ -33,14 +33,14 @@ export const Home = () => {
                     <div className="contender">
                         <div>
                             <div>
-                                <h2>Centro Psicologico</h2>
-                                <h2><b>Un Rincón Del Encuentro</b></h2>
+                                <h2>CENTRO PSICOLÓGICO</h2>
+                                <h2><b>UN RINCÓN DEL ENCUENTRO</b></h2>
                             </div>
                         <br />
                         <div>
 
                         </div>
-                            <h3>Somos un colectivo de psicólogas feministas que 
+                            <h3 className="h3-home">Somos un colectivo de psicólogas feministas que 
                                 buscan entregar un espacio seguro de atención desde 
                                 un enfoque de género y con especialidad en temáticas
                                  LGBTIAQ+ en Chile.
