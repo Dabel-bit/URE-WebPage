@@ -33,8 +33,8 @@ export const Home = () => {
                     <div className="contender">
                         <div>
                             <div>
-                                <h2>CENTRO PSICOLÓGICO</h2>
-                                <h2><b>UN RINCÓN DEL ENCUENTRO</b></h2>
+                                <h2 className="h2-home">CENTRO PSICOLÓGICO</h2>
+                                <h2 className="h2-home">UN RINCÓN DEL ENCUENTRO</h2>
                             </div>
                         <br />
                         <div>

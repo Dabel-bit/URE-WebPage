@@ -33,7 +33,7 @@ export const Formulario = () => {
                     <div className="contender">
                         <div>
                             <div>
-                                <h2>¡BIENVENIDX!</h2>
+                                <h2 className="h2-formulario">¡BIENVENIDX!</h2>
                             </div>
                         <br />
                         <div>

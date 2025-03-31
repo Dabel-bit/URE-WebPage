@@ -37,10 +37,18 @@
     }
 }
 
+.h2-formulario {
+    font-size: clamp(20px, 2.5vw, 32px); /* Mínimo 20px, ajusta con el ancho de la pantalla, máx 32px */
+    font-family: 'Nourd', sans-serif;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
 .h3-formulario {
     font-size: clamp(16px, 2vw, 24px); /* Mínimo 16px, ajusta con el ancho, máx 24px */
     font-family: 'Livvic', sans-serif;
     font-weight: lighter;
+    line-height: 1.7;
 }
 /*
 .contender{
