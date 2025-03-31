@@ -6,6 +6,7 @@ import { Contacto } from "./Pages/Contacto";
 import { Equipo } from "./Pages/Equipo";
 import { Ubicacion } from "./Pages/Ubicacion";
 import { Formulario } from "./Pages/Formulario";
+import ScrollToTop from "./Components/ScrollToTop";
 
 import './App.css'
 
@@ -13,6 +14,7 @@ export const App = () => {
 
   return (
     <BrowserRouter basename="/URE-WebPage">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
