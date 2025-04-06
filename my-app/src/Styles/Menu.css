@@ -31,7 +31,7 @@
         left: 0;
         width: 100%;
         height: 100vh;  /* Ocupa toda la altura de la pantalla */
-        padding: 20px;
+        padding-top: 70px;
         transition: all 0.3s ease-in-out;
         z-index: 100; /* Asegura que el menú esté sobre otros elementos */
     }
@@ -93,7 +93,7 @@
     color: #ffffff;
     cursor: pointer;
     width: 100%;
-    z-index: 100;
+    z-index: 200;
   }
 
 @media (max-width: 768px) {
@@ -102,11 +102,13 @@
     position: fixed;
     background-color: #41b79f;
     top: 15px;
-    right: 0px;
+    right: 15px;
     width: 100%;
     border: none;
     cursor: pointer;
     z-index: 100;
+    padding: 10px;
+    z-index: 200;
   }
 }
   
