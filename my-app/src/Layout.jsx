@@ -8,9 +8,8 @@ export const Layout = () => {
             <Menu/>
             <main>
                 <Outlet/> {  }
-                <Footer/>
             </main>
-            
+            <Footer/>
         </>
     );
 }
