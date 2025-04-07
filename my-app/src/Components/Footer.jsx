@@ -6,7 +6,7 @@ import '../Styles/Footer.css'
 export const Footer = () => {
   return (
     <>
-      <div className='footer'>
+      <div className="footer">
 
             <p>
 							&copy; 2025 Un Rincón del Encuentro&reg;
