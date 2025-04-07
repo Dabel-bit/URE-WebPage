@@ -8,7 +8,7 @@ export const Footer = () => {
     <>
       <div className="footer">
 
-            <p className="footer">
+            <p>
 							&copy; 2025 Un Rincón del Encuentro&reg;
             </p>
       </div>
