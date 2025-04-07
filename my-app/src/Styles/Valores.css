@@ -102,7 +102,10 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: stretch; /* Alinea todas las tarjetas uniformemente en altura */
     gap: 40px;
+    margin: 0 auto;
+    max-width: 1200px; /* Control de ancho */
     flex-grow: 1;
 }
 
